@@ -9,9 +9,9 @@
 </table>
 
 > **&#9755;** ***Installation and running methods***<br/>
-> $ git clone https://github.com/LeGalzor/restfulWithoutDB.git <br/>
-> $ npm install <br/>
-> $ node app.js ***or*** npm start <br/>
+> - $ git clone https://github.com/LeGalzor/restfulWithoutDB.git <br/>
+> - $ npm install <br/>
+> - $ node app.js ***or*** npm start <br/>
 
 
 ## <span id="structure">Directory structure</span>
@@ -28,7 +28,7 @@ where
 
 - directory [**`tests/`**](tests/) contains utility tests scripts built with chai and mocha.
 - file [**`.mocharc.json`**](.mocharc.json) is the config json for setting up our mocha environment.
-- - file [**`.resource.test.js`**](resource.test.js) is the mocha test suites for this application.
+- file [**`.resource.test.js`**](resource.test.js) is the mocha test suites for this application.
 - file [**`README.md`**](README.md) is the [Markdown][github_markdown] document for this page.
 
 >
