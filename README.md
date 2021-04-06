@@ -27,7 +27,7 @@
 >   </pre>
 >   <pre>
 >  $ curl -X POST "Content-Type: application/json" -d '{"field": "value"}' http://localhost:{your_port}/api/resource/{your_route}
-    will create a new route with data members associated with this route only.
+  will create a new route with data members associated with this route only.
 >   </pre>
 >  <pre>
 >  $ curl http://http://localhost:{your_port}/api/resource will return the current resource for the route.
