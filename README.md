@@ -36,13 +36,13 @@
 
 ## <span id="structure">Roadmap for Improvements</span>
  <pre>
- Changing the store to use req.locale
+🔘 Changing the store to use req.locale
   </pre>
    <pre>
- Fixing the readme files
+ 🔘 Fixing the readme files
   </pre>
    <pre>
- Updating the sanitation & Validation usage
+ 🔘 Updating the sanitation & Validation usage
   </pre>
 
 ## <span id="structure">Directory structure</span>
