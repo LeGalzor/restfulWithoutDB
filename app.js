@@ -21,9 +21,10 @@ app.use(function(req, res, next) {
 
 const PORT = 8080
 const createServer = (port) => {
+  app.set(port || PORT, port);
   app.listen(port || PORT);
   console.log(`server is running at: ${PORT}`)
   return app;
 }
-
- module.exports.createServer = createServer
+createServer();
+module.exports.createServer = createServer
