@@ -9,7 +9,10 @@
   </tr>
 </table>
 
-> **&#9755;** ***Installation policy***<br/>
+> **&#9755;** ***Installation and running methods***<br/>
+> git clone 
+> npm install
+> node app.js
 
 
 ## <span id="structure">Directory structure</span>
