@@ -10,7 +10,7 @@
 </table>
 
 > **&#9755;** ***Installation policy***<br/>
-> When possible we install software from a [Zip archive][zip_archive] rather than via a Windows installer. In our case we defined **`C:\opt\`** as the installation directory for optional software tools (*in reference to* the [`/opt/`][linux_opt] directory on Unix).
+
 
 ## <span id="structure">Directory structure</span>
 
@@ -26,6 +26,7 @@ where
 
 - directory [**`tests/`**](tests/) contains utility tests scripts built with chai and mocha.
 - file [**`.mocharc.json`**](.mocharc.json) is the config json for setting up our mocha environment.
+- - file [**`.resource.test.js`**](resource.test.js) is the mocha test suites for this application.
 - file [**`README.md`**](README.md) is the [Markdown][github_markdown] document for this page.
 
 >
