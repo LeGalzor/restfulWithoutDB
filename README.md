@@ -23,11 +23,11 @@
 > **&#9755;** ***Creating a new resource***<br/>
 >  <pre>
 >  $ curl -X POST "Content-Type: application/json" -d '{"field": "value"}' http://localhost:{your_port}/api/resource
->  will create a new {"field": "value"} data member, using POST again you can either update or include a new data members.
+   will create a new {"field": "value"} data member, using POST again you can either update or include a new data members.
 >   </pre>
 >   <pre>
 >  $ curl -X POST "Content-Type: application/json" -d '{"field": "value"}' http://localhost:{your_port}/api/resource/{your_route}
->  will create a new route with data members associated with this route only.
+    will create a new route with data members associated with this route only.
 >   </pre>
 >  <pre>
 >  $ curl http://http://localhost:{your_port}/api/resource will return the current resource for the route.
