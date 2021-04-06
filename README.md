@@ -30,7 +30,8 @@
   will create a new route with data members associated with this route only.
 >   </pre>
 >  <pre>
->  $ curl http://http://localhost:{your_port}/api/resource will return the current resource for the route.
+>  $ curl http://http://localhost:{your_port}/api/resource 
+  will return the current resource for the route.
 >   </pre>
 
 ## <span id="structure">Roadmap for Improvements</span>
