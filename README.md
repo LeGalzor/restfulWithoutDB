@@ -18,13 +18,13 @@ This project is organized as follows:
 <pre style="font-size:80%;">
 bin\
 routes\{<a href="routes/index.js">index.js</a>, ..}
-routes\tests\{<a href="routes/tests/resource.test.js">resource.test.js</a>, ..}
+routes\tests\{<a href="tests/resource.test.js">resource.test.js</a>, ..}
 README.md
 </pre>
 
 where
 
-- directory [**`bin\`**](tests/) contains utility tests scripts built with chai and mocha.
+- directory [**`tests/`**](tests/) contains utility tests scripts built with chai and mocha.
 - file [**`.mocharc.json`**](.mocharc.json) is the config json for setting up our mocha environment.
 - file [**`README.md`**](README.md) is the [Markdown][github_markdown] document for this page.
 
