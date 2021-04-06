@@ -39,10 +39,10 @@
 🔘 Changing the store to use req.locale
   </pre>
    <pre>
- 🔘 Fixing the readme files
+🔘 Polishing the readme files
   </pre>
    <pre>
- 🔘 Updating the sanitation & Validation usage
+🔘 Updating the sanitation & Validation usage
   </pre>
 
 ## <span id="structure">Directory structure</span>
