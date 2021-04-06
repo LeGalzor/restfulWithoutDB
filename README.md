@@ -17,7 +17,7 @@
 >   </pre>
 >  <pre>
 >  $ node app.js ***or*** npm start
-</pre>
+> </pre>
 
 
 ## <span id="structure">Directory structure</span>
