@@ -9,9 +9,11 @@
 </table>
 
 > **&#9755;** ***Installation and running methods***<br/>
+> <pre>
 > - $ git clone https://github.com/LeGalzor/restfulWithoutDB.git <br/>
 > - $ npm install <br/>
 > - $ node app.js ***or*** npm start <br/>
+> </pre>
 
 
 ## <span id="structure">Directory structure</span>
