@@ -20,6 +20,30 @@
 > </pre>
 
 
+> **&#9755;** ***Creating a new resource***<br/>
+>  <pre>
+>  $ curl -X POST "Content-Type: application/json" -d '{"field": "value"}' http://localhost:{your_port}/api/resource
+>  will create a new {"field": "value"} data member, using POST again you can either update or include a new data members.
+>  >  <pre>
+>  $ curl -X POST "Content-Type: application/json" -d '{"field": "value"}' http://localhost:{your_port}/api/resource/{your_route}
+>  will create a new route with data members associated with this route only.
+>   </pre>
+>   </pre>
+>  <pre>
+>  $ curl http://http://localhost:{your_port}/api/resource will return the current resource for the route.
+>   </pre>
+
+## <span id="structure">Roadmap for Improvements</span>
+ <pre>
+ Changing the store to use req.locale
+  </pre>
+   <pre>
+ Fixing the readme files
+  </pre>
+   <pre>
+ Updating the sanitation & Validation usage
+  </pre>
+
 ## <span id="structure">Directory structure</span>
 
 This project is organized as follows:
